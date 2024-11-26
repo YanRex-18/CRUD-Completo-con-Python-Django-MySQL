@@ -65,10 +65,10 @@ WSGI_APPLICATION = 'project_core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # ENGINE es motor de BD
-        'NAME': 'bd_django_mysql',
+        'NAME': 'bd_diego',
                 'USER': 'root',
-                'PASSWORD': '',
-                'HOST': '127.0.0.1',
+                'PASSWORD': '180803',
+                'HOST': 'localhost',
                 'PORT': '3306',
     }
 }
